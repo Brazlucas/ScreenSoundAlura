@@ -9,7 +9,7 @@ internal class Program
         ira.AdicionarNota(new Avaliacao(10));
         ira.AdicionarNota(new Avaliacao(8));
         ira.AdicionarNota(new Avaliacao(6));
-        Banda beatles = new("The Beatles");
+        Banda beatles = new("The Beatless");
 
         Dictionary<string, Banda> bandasRegistradas = new();
         bandasRegistradas.Add(ira.Nome, ira);
